@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>
+Employee
+</title>
+
+<body>
+<h1>Employee detail</h1>
+{% for post in form %}
+<h2>Post id :{{post.id}}</h2>
+<h3>Employee id:{{post.empid}}</h3>
+<h4>Employee name:{{post.empname}}</h4>
+<h5>Employee Salary:{{post.empsalary}}</h5>
+<h6>Employee address:{{post.empaddress}}</h6>
+{% endfor %}
+</body>
+</html>
